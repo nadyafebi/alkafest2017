@@ -10,7 +10,7 @@ const sass    = require('gulp-sass');
   Tasks
 */
 
-gulp.task('build', gulp.parallel(compile, style));
+gulp.task('build', gulp.parallel(compile, copy, style));
 
 gulp.task('default', gulp.series('build', serve, watch));
 
@@ -26,6 +26,11 @@ function compile() {
                partials: './panini/partials'
              }))
              .pipe(gulp.dest('./dist'));
+}
+
+function copy() {
+  return gulp.src('./node_modules/foundation-sites/dist/js/foundation.min.js')
+             .pipe(gulp.dest('./dist/js'));
 }
 
 function style() {
