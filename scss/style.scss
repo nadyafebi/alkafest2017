@@ -11,6 +11,10 @@ body {
   //background-image: url('../img/bg.jpg');
 }
 
+h1 {
+  font-family: RealitySunday;
+}
+
 #header {
   background-color: $black;
   height: 95vh;
@@ -47,5 +51,24 @@ body {
 }
 
 #event-info {
-  background-color: $white;
+  background-color: #e76c54;
+  color: $white;
+  font-size: 20px;
+  padding: 25px;
+
+  #event-info-container {
+    height: 100%;
+  }
+}
+
+#map {
+  min-height: 300px;
+
+  @include breakpoint(small) {
+    width: 100%;
+  }
+
+  @include breakpoint(medium) {
+    width: 75%;
+  }
 }
