@@ -6,9 +6,7 @@
 }
 
 body {
-  background-attachment: fixed;
   background-color: $primary-color;
-  //background-image: url('../img/bg.jpg');
 }
 
 h1 {
@@ -42,12 +40,14 @@ h1 {
   }
 }
 
-#poster-container {
+.bg-container {
   padding: 0;
 }
 
-#poster {
+.bg {
+  position: relative;
   width: 100%;
+  z-index: 1;
 }
 
 .event-info {
@@ -86,5 +86,26 @@ h1 {
     background-color: #f35b54;
     border-color: $white;
     color: $white;
+  }
+}
+
+.social-info-container {
+  background-image: url('../img/bg.png');
+  background-size: cover;
+
+  @include breakpoint(small) {
+    height: 50vh;
+  }
+
+  @include breakpoint(large) {
+    height: 75vh;
+  }
+}
+
+.social-info {
+  height: 100%;
+
+  p {
+    font-size: 36px;
   }
 }
