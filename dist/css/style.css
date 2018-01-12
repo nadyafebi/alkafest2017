@@ -4114,3 +4114,18 @@ h1 {
   height: 100%; }
   .social-info p {
     font-size: 36px; }
+
+#footer {
+  background-color: #000000;
+  color: #fefefe;
+  padding: 10px; }
+
+.supporter-column {
+  margin-bottom: 20px; }
+
+.sponsor-column {
+  padding: 3px; }
+
+.sponsor-img {
+  min-height: 50px;
+  max-height: 100px; }

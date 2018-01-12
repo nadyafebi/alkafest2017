@@ -109,3 +109,24 @@ h1 {
     font-size: 36px;
   }
 }
+
+#footer {
+  background-color: $black;
+  color: $white;
+  padding: 10px;
+}
+
+.supporter-column {
+  @include breakpoint(small) {
+    margin-bottom: 20px;
+  }
+}
+
+.sponsor-column {
+  padding: 3px;
+}
+
+.sponsor-img {
+  min-height: 50px;
+  max-height: 100px;
+}
