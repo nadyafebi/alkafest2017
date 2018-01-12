@@ -34,7 +34,7 @@
         <h1>Ticket</h1>
         <p><b>Presale:</b> Rp 45.000</p>
         <p><b>On-the-spot:</b> Rp 55.000</p>
-        <a class="ticket-button">Order Ticket</a>
+        <button class="ticket-button" data-open="orderModal">Order Ticket</button>
       </div>
     </div>
   </div>
@@ -91,6 +91,8 @@
     </div>
   </div>
 </div>
+
+{{> order-modals}}
 
 <script src="js/smoothScrolling.js"></script>
 <script src="js/index.js"></script>

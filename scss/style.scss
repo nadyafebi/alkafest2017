@@ -59,7 +59,7 @@ h1 {
 }
 
 .event-info {
-  background-color: #e76c54;
+  background-color: $secondary-color;
   color: $white;
   font-size: 20px;
   padding: 25px;
@@ -90,7 +90,7 @@ h1 {
   font-size: 1rem;
   font-weight: bold;
 
-  &:hover {
+  &:hover, &:focus {
     background-color: #f35b54;
     border-color: $white;
     color: $white;

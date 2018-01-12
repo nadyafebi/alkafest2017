@@ -50,7 +50,7 @@
             <h1>Ticket</h1>
             <p><b>Presale:</b> Rp 45.000</p>
             <p><b>On-the-spot:</b> Rp 55.000</p>
-            <a class="ticket-button">Order Ticket</a>
+            <button class="ticket-button" data-open="orderModal">Order Ticket</button>
           </div>
         </div>
       </div>
@@ -106,6 +106,68 @@
           </div>
         </div>
       </div>
+    </div>
+    
+    <!-- Ticket Order Modal -->
+    <div class="reveal" id="orderModal" data-reveal>
+      <h1>Ticket Order</h1>
+      <form data-abide action="javascript:submitForm()">
+        <div class="row">
+          <div class="large-12 column">
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="nameBox" class="left inline">Nama Lengkap</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="text" required id="nameBox">
+                <small class="form-error" data-form-error-for="nameBox">Tolong ketik nama anda dengan benar.</small>
+              </div>
+            </div>
+            <div class="row">
+              <div class="small-4 columns">
+                <label for="emailBox" class="left inline">Email</label>
+              </div>
+              <div class="small-8 columns">
+                <input type="email" required id="emailBox">
+                <small class="form-error" data-form-error-for="emailBox">Tolong ketik alamat email anda dengan benar.</small>
+              </div>
+            </div>
+            <button type="submit" id="submitForm" class="secondary round button">Order</button>
+          </div>
+        </div>
+      </form>
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    
+    <!-- Order Success Modal -->
+    <div class="reveal" id="successModal" data-reveal>
+      <h1>Success!</h1>
+      <p>Tiket telah dikirim ke email anda.</p>
+      <p>Tunggulah beberapa saat jika email belum muncul atau cek folder spam.</p>
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    
+    <!-- Wait Modal -->
+    <div class="reveal" id="waitModal" data-reveal>
+      <h1>Wait...</h1>
+      <p>Harap tunggu sebentar dan jangan close window ini.</p>
+    </div>
+    
+    <!--Ticket Soldout Modal-->
+    <div class="reveal" id="soldModal" data-reveal>
+      <h1>Sold Out</h1>
+      <p>Maaf tiket telah habis.</p>
+      <p>Anda bisa contact panitia Alkafest untuk membeli tiket atau dapat membeli di loket tiket ketika hari H.</p>
+    
+      <button class="close-button" data-close aria-label="Close modal" type="button">
+        <span aria-hidden="true">&times;</span>
+      </button>
     </div>
     
     <script src="js/smoothScrolling.js"></script>
