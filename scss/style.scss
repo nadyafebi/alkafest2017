@@ -23,16 +23,24 @@ h1 {
     font-family: RealitySunday;
   }
 
+  #header-content {
+    display: none;
+  }
+
   #logo {
     max-height: 375px;
   }
 
   #nav-arrow {
-    height: 50px;
+    display: none;
     text-align: center;
 
     position: absolute;
     bottom: 25px;
+
+    img {
+      height: 50px;
+    }
   }
 
   .hidden-space {
