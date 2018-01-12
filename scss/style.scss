@@ -50,25 +50,41 @@ h1 {
   width: 100%;
 }
 
-#event-info {
+.event-info {
   background-color: #e76c54;
   color: $white;
   font-size: 20px;
   padding: 25px;
 
-  #event-info-container {
+  .event-info-container {
     height: 100%;
   }
 }
 
 #map {
-  min-height: 300px;
-
   @include breakpoint(small) {
+    height: 50vh;
     width: 100%;
   }
 
-  @include breakpoint(medium) {
+  @include breakpoint(large) {
+    min-height: 150px;
+    max-height: 30vh;
     width: 75%;
+  }
+}
+
+.ticket-button {
+  @include button(false, $button-background, $button-background-hover, $white, hollow);
+  border-color: $white;
+  border-width: 2px;
+  color: $white;
+  font-size: 1rem;
+  font-weight: bold;
+
+  &:hover {
+    background-color: #f35b54;
+    border-color: $white;
+    color: $white;
   }
 }
