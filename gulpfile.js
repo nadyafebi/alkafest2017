@@ -57,5 +57,5 @@ function serve(done) {
 function watch() {
   gulp.watch('./panini/pages/**/*.html').on('all', gulp.series(compile, browser.reload));
   gulp.watch('./panini/{layouts,partials}/**/*.html').on('all', gulp.series(reset, compile, browser.reload));
-  gulp.watch('./sass/**/*.scss').on('all', gulp.series(style, browser.reload));
+  gulp.watch('./scss/**/*.scss').on('all', gulp.series(style, browser.reload));
 }

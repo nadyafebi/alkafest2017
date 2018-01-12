@@ -1,1 +1,51 @@
 @import 'foundation-sites';
+
+@font-face {
+  font-family: RealitySunday;
+  src: url('../font/Reality Sunday.ttf');
+}
+
+body {
+  background-attachment: fixed;
+  background-color: $primary-color;
+  //background-image: url('../img/bg.jpg');
+}
+
+#header {
+  background-color: $black;
+  height: 95vh;
+  position: relative;
+
+  h3 {
+    color: #faceca;
+    font-family: RealitySunday;
+  }
+
+  #logo {
+    max-height: 375px;
+  }
+
+  #nav-arrow {
+    height: 50px;
+    text-align: center;
+
+    position: absolute;
+    bottom: 25px;
+  }
+
+  .hidden-space {
+    color: $black;
+  }
+}
+
+#poster-container {
+  padding: 0;
+}
+
+#poster {
+  width: 100%;
+}
+
+#event-info {
+  background-color: $white;
+}
