@@ -25,11 +25,13 @@ function submitForm() {
         $("#soldModal").foundation('open');
       }
       else {
+        $("#ticket-number").html(response);
         $("#successModal").foundation('open');
       }
     },
     error: function(response) {
-      alert("Terjadi error pada website. Cek koneksi anda atau contact panitia Alkafest.");
+      alert("Telah terjadi kesalahan pada website. Coba refresh halaman ini atau hubungi panitia alkafest.");
+      console.log(response);
     }
   });
 }

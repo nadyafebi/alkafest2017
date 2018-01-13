@@ -4133,3 +4133,7 @@ h1 {
 .sponsor-img {
   min-height: 50px;
   max-height: 100px; }
+
+#ticket-number {
+  font-size: 36px;
+  font-weight: bold; }
