@@ -9,6 +9,10 @@ body {
   background-color: $primary-color;
 }
 
+.admin-page {
+  background-color: $black;
+}
+
 h1 {
   font-family: RealitySunday;
 }
@@ -46,6 +50,19 @@ h1 {
   .hidden-space {
     color: $black;
   }
+}
+
+#header-admin {
+  margin-top: 25px;
+
+  .logo {
+    max-height: 250px;
+  }
+}
+
+.info-admin {
+  margin-top: 50px;
+  color: $white;
 }
 
 .bg-container {

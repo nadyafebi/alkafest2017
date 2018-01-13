@@ -4019,6 +4019,9 @@ a.thumbnail {
 body {
   background-color: #ffcccc; }
 
+.admin-page {
+  background-color: #000000; }
+
 h1 {
   font-family: RealitySunday; }
 
@@ -4042,6 +4045,15 @@ h1 {
       height: 50px; }
   #header .hidden-space {
     color: #000000; }
+
+#header-admin {
+  margin-top: 25px; }
+  #header-admin .logo {
+    max-height: 250px; }
+
+.info-admin {
+  margin-top: 50px;
+  color: #fefefe; }
 
 .bg-container {
   padding: 0; }
