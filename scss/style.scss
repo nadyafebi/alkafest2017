@@ -63,6 +63,16 @@ h1 {
 .info-admin {
   margin-top: 50px;
   color: $white;
+
+  label {
+    color: $white;
+  }
+
+  #ticketBox {
+    font-size: 90px;
+    height: 100px;
+    text-align: center;
+  }
 }
 
 .bg-container {

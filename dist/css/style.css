@@ -4054,6 +4054,12 @@ h1 {
 .info-admin {
   margin-top: 50px;
   color: #fefefe; }
+  .info-admin label {
+    color: #fefefe; }
+  .info-admin #ticketBox {
+    font-size: 90px;
+    height: 100px;
+    text-align: center; }
 
 .bg-container {
   padding: 0; }
