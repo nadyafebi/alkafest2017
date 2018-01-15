@@ -94,18 +94,10 @@ h1 {
   .event-info-container {
     height: 100%;
   }
-}
 
-#map {
-  @include breakpoint(small) {
-    height: 50vh;
-    width: 100%;
-  }
-
-  @include breakpoint(large) {
-    min-height: 150px;
-    max-height: 30vh;
-    width: 75%;
+  a {
+    color: $white;
+    border-bottom: 3px solid $white;
   }
 }
 

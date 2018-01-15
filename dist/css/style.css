@@ -4076,15 +4076,9 @@ h1 {
   padding: 25px; }
   .event-info .event-info-container {
     height: 100%; }
-
-#map {
-  height: 50vh;
-  width: 100%; }
-  @media print, screen and (min-width: 64em) {
-    #map {
-      min-height: 150px;
-      max-height: 30vh;
-      width: 75%; } }
+  .event-info a {
+    color: #fefefe;
+    border-bottom: 3px solid #fefefe; }
 
 .ticket-button {
   display: inline-block;
