@@ -20,11 +20,11 @@ function submitForm() {
     },
     success: function(response) {
       console.log(response);
-      if (response == "SOLDOUT")
-      {
+      if (response == "SOLDOUT") {
         $("#soldModal").foundation('open');
-      }
-      else {
+      } else if(response =="ENDED") {
+        $("#endedModal").foundation('open');
+      } else {
         $("#ticket-number").html(response);
         $("#successModal").foundation('open');
       }
