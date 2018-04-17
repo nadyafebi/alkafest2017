@@ -1,4 +1,4 @@
-<center><img src="https://github.com/nadyafebi/alkafest2017/raw/master/logo.png"></center>
+<p align="center"><img src="https://github.com/nadyafebi/alkafest2017/raw/master/logo.png"></p>
 
 <br>
 
