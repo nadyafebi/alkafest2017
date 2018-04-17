@@ -8,14 +8,10 @@ This is a front-end update to the previous website, [Alkafest 2015](https://gith
 
 ## What's New
 
-* **Foundation 6**
-  Now powered by the latest version of Foundation front-end framework.
-* **New Layout**
-  Updated the layout to be more modern and eye-catching, while still cramming event information in one screen.
-* **Animated Splash Screen**
-  Visitors are greeted with the event's logo while page is loading.
-* **FontAwesome**
-  Decorated with fast vector icons.
+* **Foundation 6** - Now powered by the latest version of Foundation front-end framework.
+* **New Layout** - Updated the layout to be more modern and eye-catching, while still cramming event information in one screen.
+* **Animated Splash Screen** - Visitors are greeted with the event's logo while page is loading.
+* **FontAwesome** - Decorated with fast vector icons.
 
 ## Screenshot
 
